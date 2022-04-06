@@ -37,8 +37,8 @@ namespace zich{
         friend Matrix operator*= (Matrix& mat,double n);
         friend Matrix operator*= (double n,Matrix& mat);
 
-        friend ostream &operator<<(ostream &out, const Matrix &mat1);
-        friend istream &operator>>(istream &in, Matrix &mat1);
+        friend ostream &operator<<(ostream &out, const Matrix &mat);
+        friend istream &operator>>(istream &in, Matrix &mat);
 
 
 
